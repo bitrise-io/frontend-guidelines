@@ -1,0 +1,19 @@
+{
+  "name": "frontend-guidelines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:style": "stylelint \"./**/*.scss\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-selector-bem-pattern": "^2.0.0"
+  }
+}
